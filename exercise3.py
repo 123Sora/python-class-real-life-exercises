@@ -1,3 +1,11 @@
+""" 
+    Execise: Write a Python class BankAccount with attributes like account_number, balance, 
+              date_of_opening and customer_name, and methods like deposit, withdraw, and check_balance.
+
+"""
+
+
+
 class BankAccount: 
     def __init__(self, account_number, date_of_opening, balance, customer_name):
         self.account_number = account_number
